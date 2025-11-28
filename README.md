@@ -64,16 +64,3 @@ Dimana:
 * **Pada Dataset 2:** Ditemukan banyak outlier. Hal ini karena data didominasi nilai rendah (laut tenang), menyebabkan Median dan MAD sangat kecil. Akibatnya, algoritma menjadi sangat sensitif; lonjakan gelombang sedikit saja langsung dianggap anomali karena melewati batas toleransi yang sempit.
 
 ---
-
-## Struktur Repository
-
-```bash
-├── data/
-│   ├── Gelombang (1).xlsx    # Dataset Stabil
-│   └── Gelombang (2).xlsx    # Dataset Skewed
-├── images/
-│   ├── time_series_result.png
-│   └── accuracy_comparison.png
-├── src/
-│   └── main_analysis.ipynb   # Kode Utama (Jupyter Notebook)
-└── README.md                 # Dokumentasi Proyek
